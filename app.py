@@ -26,10 +26,9 @@ st.set_page_config(
 # Custom CSS for better styling
 st.markdown("""
     <style>
-    /* Hide Streamlit branding and GitHub link */
+    /* Hide GitHub link only, keep sidebar */
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
-    header {visibility: hidden;}
     .viewerBadge_container__1QSob {display: none;}
     
     .main-header {
